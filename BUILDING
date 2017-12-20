@@ -1,4 +1,12 @@
-Thanks to R. Diez for contributing the autotools support patch:
+There are two ways to building adv_jtag_bridge programs:
+
+1. Using the original Makefile.classic (non-autotools) method. 
+   building command is:
+   make -f Makefile.classic help;            # this command print help message
+   make -f Makefile.classic adv_jtag_bridge; # compiling source code
+   make -f Makefile.classic install;         # install adv_jtag_bridge program
+
+2. Thanks to R. Diez for contributing the autotools support patch:
 
 ./autogen.sh
 ./configure
